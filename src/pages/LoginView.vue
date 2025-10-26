@@ -43,8 +43,8 @@
         </p>
         <div class="demo-credentials">
           <p class="demo-title">Demo Credentials:</p>
-          <p class="demo-text">Email: Sadeniyi016@gmail.com</p>
-          <p class="demo-text">Password: password123</p>
+          <p class="demo-text">Email: chrismartins6863@gmail.com</p>
+          <p class="demo-text">Password: student@2025</p>
         </div>
         <div v-if="message" :class="['toast', message.type]">
           {{ message.text }}
