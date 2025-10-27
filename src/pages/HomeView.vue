@@ -142,6 +142,7 @@ const features = [
   position: sticky;
   top: 0;
   z-index: 100;
+  width: 100%;
 }
 
 .nav-content {
@@ -149,6 +150,7 @@ const features = [
   justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -156,6 +158,10 @@ const features = [
   font-weight: 700;
   color: #3b82f6;
   margin: 0;
+    transition: color 0.3s ease;
+}
+.logo:hover {
+  color: #2563eb;
 }
 
 .nav-links {
@@ -501,9 +507,13 @@ const features = [
   color: #6b7280;
 }
 @media (max-width: 768px) {
-  .nav-links {
+
+   .nav-links {
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 1rem;
+    margin: 20px 0;
+    width: 100%;
+  
   }
 
   .hero-title {
@@ -519,7 +529,7 @@ const features = [
   }
 
   .btn {
-    width: 100%;
+    width: 80%;
     text-align: center;
   }
 
